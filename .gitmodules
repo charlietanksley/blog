@@ -1,0 +1,15 @@
+[submodule "themes/jane"]
+	path = themes/jane
+	url = git@github.com:xianmin/hugo-theme-jane.git
+[submodule "themes/avicenna"]
+	path = themes/avicenna
+	url = git@github.com:hadisinaee/avicenna.git
+[submodule "themes/ezhil"]
+	path = themes/ezhil
+	url = git@github.com:vividvilla/ezhil.git
+[submodule "themes/indigo"]
+	path = themes/indigo
+	url = https://github.com/AngeloStavrow/indigo.git
+[submodule "themes/natrium"]
+	path = themes/natrium
+	url = https://github.com/mobybit/hugo-natrium-theme
