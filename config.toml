@@ -1,4 +1,4 @@
-baseURL = "http://blog.tanksley.me/"
+baseURL = "http://tanksley.me/blog"
 languageCode = "en-us"
 title = "Charlie Tanksley's Blog"
 publishDir = "docs"
@@ -10,8 +10,7 @@ pygmentsCodefences = true
 pygmentsStyle = "native"
 
 [taxonomies]
-    category = "categories"  
-    tag = "tags"
+    category = "categories"
 
 [permalinks]
     post = "/:slug/"
@@ -19,18 +18,13 @@ pygmentsStyle = "native"
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "https://tanksley.me"
     weight = -110
-    
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = -120
 
 [[menu.main]]
     name = "Categories"
     url = "/categories"
-    weight = -130
+    weight = -120
 
 [params]
     description = ""
