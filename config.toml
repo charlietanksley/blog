@@ -1,6 +1,7 @@
 baseURL = "http://tanksley.me/blog/"
 languageCode = "en-us"
 title = "Charlie Tanksley's Blog"
+publishDir = "docs"
 theme = "contrast-hugo"
 preserveTaxonomyNames = true
 rssLimit = 10
