@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Charlie Tanksley&#39;s Blog</title>
-    <link>http://tanksley.me/blog/posts/</link>
+    <link>https://tanksley.me/blog/posts/</link>
     <description>Recent content in Posts on Charlie Tanksley&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2020 06:18:00 -0500</lastBuildDate>
     
-	<atom:link href="http://tanksley.me/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tanksley.me/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cultivating</title>
-      <link>http://tanksley.me/blog/posts/cultivating/</link>
+      <link>https://tanksley.me/blog/posts/cultivating/</link>
       <pubDate>Fri, 03 Jan 2020 06:18:00 -0500</pubDate>
       
-      <guid>http://tanksley.me/blog/posts/cultivating/</guid>
+      <guid>https://tanksley.me/blog/posts/cultivating/</guid>
       <description>The past It has been ages since I had a blog. Back when I was a graduate student I felt like I had something I could help teach the (academic humanities) world about LaTeX, so I wrote a blog on the topic and an educational guide. It was fun and some people seemed to find it useful.
 I have been meaning to write about programming ever since I started my first programming job in 2012.</description>
     </item>
