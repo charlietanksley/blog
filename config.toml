@@ -13,7 +13,7 @@ pygmentsStyle = "native"
     category = "categories"
 
 [permalinks]
-    post = "/:slug/"
+    posts = "/:title/"
     page = "/:slug/"
 
 [[menu.main]]
