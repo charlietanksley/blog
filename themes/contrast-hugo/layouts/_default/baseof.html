@@ -25,6 +25,9 @@
       <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
   </nav>
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 </header>
 
 {{- block "main" . }}{{- end }}
