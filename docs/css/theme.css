@@ -1,27 +1,30 @@
 @media (prefers-color-scheme: light) {
   html {
     background: #fff;
-    color: #222;
+    color: #282828;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   html {
-    background: #222;
+    background: #282828;
     color: #fff;
   }
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Roboto",sans-serif;
   font-size: 16px;
   font-size: calc(0.8rem + 0.25vw);
   font-weight: 400;
   line-height: 1.65;
-  margin: 0;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body, blockquote, figure {
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,18 +38,19 @@ b, strong, th {
 a {
   color: inherit;
   text-decoration: inherit;
+  transition: color .2s;
 }
 
-a:hover {
-  text-decoration: underline;
+a:hover, header time {
+  color: #949494;
 }
 
 article a {
   color: #68f;
 }
 
-header time {
-  color: #949494;
+article header a, article footer a {
+  color: inherit;
 }
 
 hr {
@@ -60,18 +64,11 @@ blockquote {
   padding: 1px 1.5em;
 }
 
-blockquote, figure {
-  margin: 1em 0;
-}
-
-img, li {
-  margin: .5em 0;
-}
-
 img {
   border-radius: 2px;
   max-width: 100%;
   height: auto;
+  margin: .5em 0;
 }
 
 table {
@@ -98,12 +95,7 @@ pre {
   overflow-x: auto;
 }
 
-pre code {
-  all: unset;
-  -webkit-text-fill-color: initial;
-}
-
-code {
+p code {
   font-size: .9em;
   background: #94949426;
   opacity: .75;
@@ -119,19 +111,12 @@ body > header {
   align-items: center;
 }
 
+h1 {
+  font-size: 1.7em;
+}
+
 header h1, header h2 {
   margin: 0;
-}
-
-article header {
-  margin-bottom: 2em;
-}
-
-article header h1 {
-  font-size: 1.75em;
-  padding: .25em 0;
-  margin-bottom: .7em;
-  border-bottom: 1px solid #94949436;
 }
 
 nav {
@@ -139,7 +124,7 @@ nav {
 }
 
 nav a {
-  padding: 0 .8em;
+  margin: 0 .8em;
 }
 
 body > header, article {
