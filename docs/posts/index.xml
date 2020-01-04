@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2020 06:18:00 -0500</lastBuildDate>
     
-	<atom:link href="https://tanksley.me/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tanksley.me/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,8 +17,64 @@
       <pubDate>Fri, 03 Jan 2020 06:18:00 -0500</pubDate>
       
       <guid>https://tanksley.me/blog/posts/cultivating/</guid>
-      <description>The past It has been ages since I had a blog. Back when I was a graduate student I felt like I had something I could help teach the (academic humanities) world about LaTeX, so I wrote a blog on the topic and an educational guide. It was fun and some people seemed to find it useful.
-I have been meaning to write about programming ever since I started my first programming job in 2012.</description>
+      <description>
+
+&lt;h2 id=&#34;the-past&#34;&gt;The past&lt;/h2&gt;
+
+&lt;p&gt;It has been ages since I had a blog. Back when I was a graduate
+student I felt like I had something I could help teach the (academic
+humanities) world about LaTeX, so I wrote a blog on the topic and an
+educational guide. It was fun and some people seemed to find it
+useful.&lt;/p&gt;
+
+&lt;p&gt;I have been meaning to write about programming ever since I started my
+first programming job in 2012. Given my background in the humanities
+(instead of computer science), I think it felt like something I had to
+do to prove my worth as a programmer. So I felt pressure, and as a
+result I shut down on this topic. I did write a few blog posts for my
+company&amp;rsquo;s blog, but they weren&amp;rsquo;t deeply technical; instead they were
+about the culture of the company and why I was happy working
+there. While I liked the posts, I think that since they weren&amp;rsquo;t about
+technical topics they furthered my internal narrative (and worry) that
+I didn&amp;rsquo;t really have anything to write about and needed to get
+established first. So I kept not writing, feeling bad about not
+writing, and worrying that I wouldn&amp;rsquo;t ever have anything to write
+about.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-present&#34;&gt;The present&lt;/h2&gt;
+
+&lt;p&gt;I was wrong when I thought I need to become a technical expert to
+start writing again. I like writing. It helps me solidify what I&amp;rsquo;m
+learning and shape what I think. And sometimes (as I saw with that
+LaTeX blog), the finished product is useful for others as well. What
+is more, while I like technical topics, the kinds of blog posts and
+books I enjoy the most are not the ones that focus on technical
+details, but rather those on topics such as as how to think about
+problems, how to improve your skills/career, or how to better work
+with others. No big surprise there I suppose: the kinds of things I
+have always been interested in writing are the things I&amp;rsquo;m interested
+in reading now.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-future&#34;&gt;The future&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m going to write more and publish it here. I&amp;rsquo;m uncertain what that
+will look like for me&amp;mdash;my process will look like, how often
+I&amp;rsquo;ll post, exactly what I&amp;rsquo;ll write about, how long I&amp;rsquo;ll keep it going,
+etc. But I&amp;rsquo;ll figure all that out. I do know that while there might be
+some technical stuff, my main interest isn&amp;rsquo;t deeply technical and I
+have no intention of trying to make my blog deeply technical.&lt;/p&gt;
+
+&lt;p&gt;In my free time right now I&amp;rsquo;m interested in fermentation&amp;mdash;yogurt,
+sourdough, kombucha, etc. I like the experimental nature of
+fermentation. There are some basic processes and guardrails, but
+within those bounds you can try things and see what happens. There is
+lots of waiting patiently, watching, and seeing what happens. Maybe
+the result is garbage. Maybe it&amp;rsquo;s great. That part doesn&amp;rsquo;t really
+matter to me. What matters is that if you watch and wait, at least two
+things will happen: your project will change an you will learn. And so
+that&amp;rsquo;s how I&amp;rsquo;m approaching this blog: watching, waiting, letting
+things develop, and&amp;mdash;regardless of the outcome&amp;mdash;learning.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
