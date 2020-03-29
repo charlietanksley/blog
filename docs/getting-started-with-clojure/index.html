@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Getting Started with Clojure | Charlie Tanksley&#39;s Blog</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.54.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101229294);</script>
+<script async src="//static.getclicky.com/js"></script>
+
+<link rel="canonical" href="https://tanksley.me/blog/getting-started-with-clojure/">
+<link rel="alternate" type="application/rss+xml" href="" title="Charlie Tanksley&#39;s Blog">
+<link rel="stylesheet" href="https://tanksley.me/blog/css/theme.css">
+<link rel="stylesheet" href="https://tanksley.me/blog/css/classes.css">
+
+<header class="dark">
+  <h2><a href="https://tanksley.me/blog/">Charlie Tanksley&#39;s Blog</a></h2>
+  <nav>
+    
+      <a href="/blog/categories">Categories</a>
+    
+      <a href="https://tanksley.me">About</a>
+    
+  </nav>
+  </header>
+
+<article>
+  <header>
+    <h1><a href="https://tanksley.me/blog/getting-started-with-clojure/">Getting Started with Clojure</a></h1>
+    <p class="meta"><time datetime="2020-03-29T00:00:00Z">March 29, 2020</time></p>
+  </header>
+  
+
+<p>In which the author tries to learn to think functionally <em>and</em> to be
+proficient in Clojure.</p>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>In my current job, I write Clojure maybe 5% of the time, writing Ruby
+the rest. I&rsquo;m at a place where I can get things done with Clojure, but
+I&rsquo;m still thinking with a Ruby mindset. I&rsquo;m starting to think of
+&lsquo;knowing&rsquo; languages along a progression like this:</p>
+
+<ol>
+<li>Can get things done.</li>
+<li>Can follow the standards of the language and codebase.</li>
+<li>Can improve the standards of an existing codebase.</li>
+</ol>
+
+<p>Those are probably leaving lots of things out, but it&rsquo;s helpful for me
+as I conceptualize what I&rsquo;m up to right now. I&rsquo;m currently at
+level 1. To get my current job I had to do a Code Kata using Clojure
+and then pair on that with some folks. I did it. I can get things
+done. But I also feel like I don&rsquo;t really understand Clojure. It&rsquo;s not
+that I can&rsquo;t read it or write it at all. Instead, it&rsquo;s that I feel
+like I don&rsquo;t truly understand the principles and ways of thinking
+about problems that set functional programming apart from object
+oriented programming. Nor do I understand what it is about Clojure
+that further sets it apart from other functional languages. My goal is
+to remedy these and get to level 2 on my scale. I don&rsquo;t aim hit level
+3 now, and I might not care to ever get there. If my job changes and
+I&rsquo;m writing Clojure all the time, then of course that is what I
+want. But it hasn&rsquo;t and it isn&rsquo;t, so I don&rsquo;t need that level of
+expertise. I just need to not make the codebase worse than I found it
+when I pick up a ticket once a quarter.</p>
+
+<h2 id="approach">Approach</h2>
+
+<p>I&rsquo;ve had <a href="https://exercism.io">Exercism</a> in the back of my mind for a
+long while now, but never really gotten past one or two exercises in
+any language. Then maybe a year or so ago I heard a podcast interview
+with Katrina Owen where she talked about <em>Good Strategy, Bad Strategy</em>
+and how using that approach helped her change how she approached
+building Exercism. I left that interview thinking that Exercism&rsquo;s
+sweet spot was helping existing developers gain proficiency in a new
+language. Well doesn&rsquo;t that describe my current situation perfectly?!
+So I picked it back up in the last week of March and started on the
+Clojure track in earnest.</p>
+
+<p>I&rsquo;m doing the mentored Clojure track at Exercism. Here there are the
+kinds of problems you might expect to find at any &lsquo;coding challenge&rsquo;
+site, but in order to progress from one to the next you need approval
+from a &lsquo;mentor&rsquo;. The mentors are programmers who know the language and
+want to help you learn it, so they provide helpful feedback and can
+require changes to a problem before you move on. I think one benefit
+for this model is it will help me get out of that level 1 where I can
+just get things done and can help me move into level 2 where I also am
+doing things the right way.</p>
+
+<h2 id="things-i-ve-learned">Things I&rsquo;ve learned</h2>
+
+<p>I&rsquo;m three exercises in and I <em>love</em> this approach. The first two
+problems were very straightforward and required either no mentor
+feedback or minimal feedback. They were fine, but kind of like just
+doing a HackerRank problem. But on the third assignment the mentor had
+feedback for me. Lots of feedback. But it was delivered kindly and
+helpfully, and I was ready to learn, so this was <em>awesome</em>.</p>
+
+<p>In this particular problem the task was to write a function that can
+reverse a string. Thinking that a string is just a list of characters,
+I set out to <code>reduce</code> the string to a list, where I add each new
+letter to the front of the list as I go. A bit of searching for some
+functions whose name I couldn&rsquo;t remember, and I knew I wanted to
+<code>reduce</code> and then <code>conj</code> each letter into a <code>list</code> (I needed a <code>list</code>
+instead of, e.g., a <code>vec</code>, because <code>conj</code> adds to the end of a <code>vec</code>
+and the start of a <code>list</code>). Easy enough. So I did that, joined the
+resultant <code>list</code> into a string, and shipped it.</p>
+
+<p>There were a few points of feedback, but mostly they boiled down to
+this: the task is to apply a generic algorithm to a specific task, so
+instead of just doing the specific task, try to think about the
+generic thing first. That sounds vague, so let me explain some
+concrete ways that played out:</p>
+
+<ul>
+<li>Reducing into a sequence is really common. So <code>(reduce conj () [1 2
+3])</code> is the same as <code>(into () [1 2 3])</code>. The more generic thing is
+more concise and reveals the intention more clearly than the more
+explicit thing.</li>
+<li>Rather than writing a function that reverses a string into a list
+and then turns that into a string all in one go, write two functions
+&ndash; a generic one that can reverse any sequence into a list and a
+specific one that uses the generic reverse as a way to reverse a
+string.</li>
+</ul>
+
+<p>These both illustrate a principle I <em>think</em> is important to functional
+programming: think in terms of simple, composable functions. The cool
+thing about this challenge, and the mentor I had for it, is that I was
+able to learn how that principle applies in practice. Hopefully that
+means it will stick better!</p>
+
+</article>
+
+
+
+</html>
