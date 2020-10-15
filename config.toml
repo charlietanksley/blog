@@ -1,6 +1,6 @@
 baseURL = "https://tanksley.me/writing/"
 languageCode = "en-us"
-title = "Charlie Tanksley's Blog"
+title = "Charlie Tanksley's Writings"
 publishDir = "docs"
 theme = "contrast-hugo"
 preserveTaxonomyNames = true

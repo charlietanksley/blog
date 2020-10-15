@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Charlie Tanksley&#39;s Blog</title>
-    <link>https://tanksley.me/blog/</link>
-    <description>Recent content on Charlie Tanksley&#39;s Blog</description>
+    <title>Charlie Tanksley&#39;s Writings</title>
+    <link>https://tanksley.me/writing/</link>
+    <description>Recent content on Charlie Tanksley&#39;s Writings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://tanksley.me/blog/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://tanksley.me/writing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Started with Clojure</title>
-      <link>https://tanksley.me/blog/getting-started-with-clojure/</link>
+      <link>https://tanksley.me/writing/getting-started-with-clojure/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tanksley.me/blog/getting-started-with-clojure/</guid>
+      <guid>https://tanksley.me/writing/getting-started-with-clojure/</guid>
       <description>
 
 &lt;p&gt;In which the author tries to learn to think functionally &lt;em&gt;and&lt;/em&gt; to be
@@ -122,10 +122,10 @@ means it will stick better!&lt;/p&gt;
     
     <item>
       <title>Cultivating</title>
-      <link>https://tanksley.me/blog/cultivating/</link>
+      <link>https://tanksley.me/writing/cultivating/</link>
       <pubDate>Fri, 03 Jan 2020 06:18:00 -0500</pubDate>
       
-      <guid>https://tanksley.me/blog/cultivating/</guid>
+      <guid>https://tanksley.me/writing/cultivating/</guid>
       <description>
 
 &lt;h2 id=&#34;the-past&#34;&gt;The past&lt;/h2&gt;
