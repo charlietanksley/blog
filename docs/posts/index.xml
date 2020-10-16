@@ -6,10 +6,60 @@
     <description>Recent content in Posts on Charlie Tanksley&#39;s Writings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://tanksley.me/writing/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building Momentum</title>
+      <link>https://tanksley.me/writing/building-momentum/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tanksley.me/writing/building-momentum/</guid>
+      <description>
+
+&lt;p&gt;Backstory: I loved blogging back in my graduate school days, but only
+around topics that weren&amp;rsquo;t core to my work or identity. I&amp;rsquo;d blog about
+LaTeX when my real job was metaphysics research. I wanted to blog
+about tech pretty much as soon as I started my first job, but I&amp;rsquo;ve
+been reluctant. Always too busy. Never anything to say.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m wondering if I can change that. And I&amp;rsquo;m hoping to do so by writing
+a bunch of short, low-pressure posts aggregated in this one big
+post. Maybe if all this stuff is framed as an experiment I&amp;rsquo;ll
+overthink it less!&lt;/p&gt;
+
+&lt;h2 id=&#34;2020-10-16&#34;&gt;2020-10-16&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m changing jobs soon. Next Friday is my last day at my current job
+and I start at a new place the following Monday. So this feels like
+that time between Christmas and New Year&amp;rsquo;s. Time for reflection. New
+Year, New Me. That kind of thing.&lt;/p&gt;
+
+&lt;p&gt;In addition to taking stock, I&amp;rsquo;m doing a bit of reading. In &lt;em&gt;The
+Unicorn Project&lt;/em&gt;, a thing that has stuck out to me is the idea of a
+developer journal or diary. I&amp;rsquo;ve seen the idea in a bunch of
+places. (I want to say &lt;em&gt;The Pragmatic Programmer&lt;/em&gt; talks about keeping
+a journal for tracking bugs, and I&amp;rsquo;ve read about the Lab Notebook idea
+in at least a dozen places. And it seems like a good idea to me. But
+it&amp;rsquo;s never stuck.&lt;/p&gt;
+
+&lt;p&gt;I do write a bunch. I fill up a full-size 100-sheet spiral notebook
+every three months or so. But I struggle to keep any continuity in
+what I&amp;rsquo;m recording, and it&amp;rsquo;s very rarely reflective. I use it for in
+the moment notes in meetings or solving problems, and while I might
+return to them, I never take a step back and sum things up or put
+things in a format that might be useful going forward.&lt;/p&gt;
+
+&lt;p&gt;But when I&amp;rsquo;ve done something like this, I&amp;rsquo;ve found it&amp;rsquo;s typically
+pretty useful. It&amp;rsquo;s hard to stick to or make a system of.  Part of the
+problem there might be that I am trying to systematize it up front. So
+maybe this time I&amp;rsquo;ll try a different tack: set frequent check-ins
+during the day and see what evolves out of that. Maybe that will give
+me a little feedback loop so I can let something evolve.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Getting Started with Clojure</title>

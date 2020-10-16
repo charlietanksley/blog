@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tanksley.me/writing/building-momentum/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tanksley.me/writing/getting-started-with-clojure/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
   </url>
@@ -19,13 +24,13 @@
   
   <url>
     <loc>https://tanksley.me/writing/</loc>
-    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tanksley.me/writing/posts/</loc>
-    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
